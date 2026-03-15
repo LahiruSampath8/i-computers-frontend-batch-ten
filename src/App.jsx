@@ -1,12 +1,12 @@
 
 import './App.css'
+import Trendingproducts from './components/trendingproducts'
 
 function App() {
-
   return (
     <>
       <div>
-        Lahiru Sampath
+        <Trendingproducts />
       </div>
   
     </>
