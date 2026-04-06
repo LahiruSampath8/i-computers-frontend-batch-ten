@@ -2,7 +2,7 @@ import { Link, Route, Routes } from "react-router-dom";
 
 export default function AdminPage() {
     return(
-        <div className='w-full h-screen flex  items-center bg-accent'  >
+        <div className="w-full h-screen flex  items-center bg-accent"  >
             <div className="w-[300px] h-full bg-accent text-white" >
                 {/* <a href="/admin" className="block py-2 px-4 hover:bg-gray-700">Orders</a>
                 <a href="/admin/products" className="block py-2 px-4 hover:bg-gray-700">Products</a>
