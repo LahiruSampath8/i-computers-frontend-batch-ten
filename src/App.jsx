@@ -6,11 +6,13 @@ import HomePage from './pages/homePage'
 import Trendingproducts from './components/trendingproducts'
 import TestPage from './pages/test'
 import LoginPage from './pages/loginPage'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
   return (
 
       <div className="w-full h-screen flex  items-center justify-center bg-primary text-secondary"  >
+        <Toaster position="top-right"/>
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/admin/*' element={<AdminPage />} />
